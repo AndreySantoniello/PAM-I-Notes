@@ -9,12 +9,17 @@
 
     <TabBar>
 
-    <ShellContent
+        <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+            Route="MainPage" />
 
-    <ShellContent
+        <ShellContent
+        Title="Notas"
+        ContentTemplate="{DataTemplate local:NotesPage}"
+        Route="Notas" />
+
+        <ShellContent
         Title="Sobre o aplicativo"
         ContentTemplate="{DataTemplate local:AboutPage}"
         Route="AboutPage" />
